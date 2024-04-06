@@ -118,7 +118,7 @@ function Faq() {
         answer: "It will take five years to get a Bachelor’s Degree."  },
       {id :  5,
           question: "How many students are there in the University as of now?",
-          answer: "Current, there are 1038 students"  },
+          answer: "Current, there are 1038 students now."  },
 
   ]
   return (
