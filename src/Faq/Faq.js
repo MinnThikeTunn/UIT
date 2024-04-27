@@ -52,9 +52,9 @@ function Faq() {
       answerMyn: "သတင်းအချက်အလက်နည်းပညာတက္ကသိုလ်\nပါရမီလမ်း၊ လှိုင်တက္ကသိုလ်နယ်မြေ\nရန်ကုန်\nပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံ\n\nဖုန်း : +95-1-9664254 +95-775994221 +95-774152166\n\nFax : +95-1-9664250 \n\nအီးမေးလ်- contact@uit.edu.mm"
     },
     {id :  3,
-      questionEn: "What the requirements for the applicants?",
+      questionEn: "What are the requirements for the applicants?",
       questionMyn: "လျှောက်ထားသူများအတွက် လိုအပ်ချက်ကဘာလဲ။",
-      answeEn: "The students are to get (at least 450 total marks)in the Matriculation Examination to apply the UIT. The candidates from the whole country are applicable to join this University. The time to join this university is in November.The basic requirements are:\n- 4 Photographs of Applicant\n- Copies and Original of NRC Information of Applicant and Parents-copy\n- Copy and Original of Matriculation Exam Mark Receipt\n- Letter of recommendation of Police Station\n - Letter of recommendation of quarter",
+      answerEn: "The students are to get (at least 450 total marks)in the Matriculation Examination to apply the UIT. The candidates from the whole country are applicable to join this University. The time to join this university is in November.The basic requirements are:\n- 4 Photographs of Applicant\n- Copies and Original of NRC Information of Applicant and Parents-copy\n- Copy and Original of Matriculation Exam Mark Receipt\n- Letter of recommendation of Police Station\n - Letter of recommendation of quarter",
       answerMyn: "ကျောင်းသားများသည် UIT ကိုလျှောက်ထားရန်အတွက် တက္ကသိုလ်ဝင်တန်းစာမေးပွဲတွင် (အနည်းဆုံး စုစုပေါင်း အမှတ် ၄၅၀) ရရှိရမည်ဖြစ်သည်။ နိုင်ငံတစ်ဝှမ်းမှ လျှောက်ထားသူများသည် ဤတက္ကသိုလ်သို့ တက်ရောက်နိုင်ပါသည်။ ဤတက္ကသိုလ်သို့ တက်ရောက်ရမည့်အချိန်သည် နိုဝင်ဘာလတွင်ဖြစ်သည်။ အခြေခံလိုအပ်ချက်များမှာ-\n- လျှောက်ထားသူ၏ ဓာတ်ပုံ ၄ ပုံ\n- လျှောက်ထားသူနှင့် မိဘများ၏ NRC အချက်အလက်မိတ္တူနှင့် မူရင်း-မိတ္တူ\n- တက္ကသိုလ်ဝင်တန်းစာမေးပွဲ အမှတ်အသားပြေစာ၏ မူရင်းနှင့် မိတ္တူ\n - ရဲစခန်းထောက်ခံစာ\n - ရပ်ကွက်ထောက်ခံစာ"
       },
       {id :  4,
