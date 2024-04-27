@@ -4,7 +4,7 @@ import './index.css';
 import Faq from './Faq/Faq.js';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Navigator from './navigator.js';
 import { store } from './store/Store';
 import { Provider } from 'react-redux';
