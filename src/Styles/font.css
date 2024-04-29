@@ -12,9 +12,3 @@
     url('../Font/DegularDisplay-Medium.otf') format('opentype');
          
   }
-
-  @font-face {
-     font-family: 'PyiDaungSu';
-     src: local('DegularRegular'),
-     url('../Font/pyidaungsu.ttf') format('truetype');
- }

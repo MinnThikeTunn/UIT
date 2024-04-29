@@ -48,6 +48,7 @@ function Calendar() {
   text={display}
   el="h1"
   className="text-5xl font-medium"
+  language={language}
 />
 
   </span>

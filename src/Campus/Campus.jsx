@@ -2,10 +2,18 @@ import { AnimatedText } from '../Components/AnimatedText';
 import Navbar from '../Nav/Navbar';
 import useResize from '../utils/useResize';
 import React,{ useState } from 'react';
+import { useSelector } from 'react-redux';
+import { motion } from "framer-motion";
 
     
 function Campus() {
   const title = "Campus";
+  const language = useSelector((state) => state.language.value);
+
+
+  const MyanText = "ကျောင်းဝင်း";
+
+  const display = (language == "EN") ? title : MyanText;
   const windowWidth = useResize(title);
 
   const [dataFromNav, setDataFromNav] = useState(true);
@@ -36,6 +44,7 @@ function Campus() {
        text={title}
        el="h1"
        className="text-5xl font-medium"
+       language={language}
      />
        </span>
   </div> 

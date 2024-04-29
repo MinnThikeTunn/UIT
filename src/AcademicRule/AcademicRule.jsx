@@ -32,6 +32,7 @@ function AcademicRule() {
           text={title}
           el="h1"
           className="lg:text-7xl text-6xl font-medium"
+          language={language}
         />
     </span>
     </div>
@@ -42,6 +43,7 @@ function AcademicRule() {
        text={display}
        el="h1"
        className="text-5xl font-medium"
+       language={language}
      />
        </span>
   </div>

@@ -54,7 +54,7 @@ function Navbar({sendDataToParent}){
             <Link reloadDocument to="/"><img src={image} className="uitLogo"/></Link>
             <nav ref={navRef}>
                 <div className="Menu" onMouseEnter={()=>handleHover("menu1")} onMouseLeave={handleLeave} onClick={()=>handleToggleAccordion("menu1")}>
-                    <a href='#' className={windowWidth>1024?"hoverActive menu1":"menu1"} style={{opacity:hoveredTab==='menu1'&&0.7}}>
+                    <a className={windowWidth>1024?"hoverActive menu1":"menu1"} style={{opacity:hoveredTab==='menu1'&&0.7}}>
                         <span>About</span>
                         <svg width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg" className="arrow">
                             <path d={activeTab==="menu1"?"M17 8L8.57895 2L1 8":"M1 1.64285L9.42105 7.64285L17 1.64285"} stroke={windowWidth <= 1024 ? "white" : "black"} stroke-width="2" stroke-linecap="round"/>
@@ -72,7 +72,7 @@ function Navbar({sendDataToParent}){
                 </div>
 
                 <div className="Menu" onMouseEnter={()=>handleHover("menu2")} onMouseLeave={handleLeave} onClick={()=>handleToggleAccordion("menu2")}>
-                    <a href='#' className={windowWidth>1024?"hoverActive menu2":"menu2"} style={{opacity:hoveredTab==='menu2'&&0.7}}>
+                    <a className={windowWidth>1024?"hoverActive menu2":"menu2"} style={{opacity:hoveredTab==='menu2'&&0.7}}>
                         <span>Academic</span>
                         <svg width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg" className="arrow">
                             <path d={activeTab==="menu2"?"M17 8L8.57895 2L1 8":"M1 1.64285L9.42105 7.64285L17 1.64285"} stroke={windowWidth <= 1024 ? "white" : "black"} stroke-width="2" stroke-linecap="round"/>
