@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
     
 function StudentRegister() {
-  const title = "Student Registeration";
+  const title = "Student Registration";
   const windowWidth = useResize(title);
   const language = useSelector((state) => state.language.value);
 

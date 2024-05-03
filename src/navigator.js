@@ -8,7 +8,7 @@ import Calendar from './Calendar/Calendar';
 import Campus from './Campus/Campus';
 import EmailService from './EmailService/EmailService';
 import LMS from './LMS/LMS';
-import StudentRegister from './StudentRegisteration/StudentRegister';
+import StudentRegister from './StudentRegistration/StudentRegister';
 import Library from './BookLibrary/Library';
 
 
@@ -35,7 +35,7 @@ export default function Navigator() {
             <Route path="/academic/admission-requirements" element={<Admission />} />
             <Route path="/academic/academic-rules" element={<AcademicRule />} />
             <Route path="/academic/lms" element={<LMS />} />
-            <Route path="/academic/student-registeration" element={<StudentRegister />} />
+            <Route path="/academic/student-registration" element={<StudentRegister />} />
             <Route path="/academic/email-service" element={<EmailService />} />
             <Route path="/academic/library" element={<Library />} />
             <Route path="/academic/calendar" element={<Calendar />} />

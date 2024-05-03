@@ -1,5 +1,4 @@
 import '../Styles/Degree.css';
-import Subsec from './Subsec';
 import {motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
@@ -16,7 +15,7 @@ const headingLine = [
   },
   {
     id: 2,
-    heading: "Decorate"
+    heading: "Doctorate"
   }
 ]
 
@@ -26,24 +25,24 @@ const discription = [
     category1: "Computer Science",
     category2: "Computer Technology",
 
-    title1: ["B.C.sc(Software Engineering)","B.C.sc(Business Information Technology)","B.C.sc(Knowledge Engineering)","B.C.sc(High Performance Computing)"],
-    title2: ["B.C.sc(Software Engineering)","B.C.sc(Business Information Technology)","B.C.sc(Knowledge Engineering)","B.C.sc(High Performance Computing)"]
+    title1: ["B.C.Sc. (Software Engineering)","B.C.Sc. (Business Information Systems)","B.C.Sc. (Knowledge Engineering)","B.C.Sc. (High Performance Computing)"],
+    title2: ["B.C.Tech. (Embedded Systems)","B.C.Tech. (Communication and Networking)","B.C.Tech. (Cyber Security)"]
   },
   {
     id: 1,
     category1: "Computer Science",
-    category2: "",
+    category2: "Computer Technology",
 
-    title1: ["B.C.sc(Software Engineering)","B.C.sc(Business Information Technology)","B.C.sc(Knowledge Engineering)","B.C.sc(High Performance Computing)"],
-    title2: []
+    title1: ["M.C.Sc. (Software Engineering)","M.C.Sc. (Business Information Systems)","M.C.Sc. (Knowledge Engineering)","M.C.Sc. (High Performance Computing)"],
+    title2: ["M.C.Tech. (Embedded Systems)","M.C.Tech. (Communication and Networking)","M.C.Tech. (Cyber Security)" ]
 
   },
   {
     id: 2,
-    category1: "Computer Technology",
+    category1: "",
     category2: "",
 
-    title1: ["B.C.sc(Software Engineering)","B.C.sc(Business Information Technology)","B.C.sc(Knowledge Engineering)","B.C.sc(High Performance Computing)"],
+    title1: ["Ph.D (Information Technology)"],
     title2: []
 
   },

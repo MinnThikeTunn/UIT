@@ -30,8 +30,8 @@ function Item2(){
             link: '/academic/lms'
           },
           {
-            text: 'Student Registeration',
-            link: '/academic/student-registeration'
+            text: 'Student Registration',
+            link: '/academic/student-registration'
           },
           {
             text: 'Email Service',
