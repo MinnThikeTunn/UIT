@@ -8,13 +8,15 @@ import { HashRouter as Router } from 'react-router-dom';
 import Navigator from './navigator.js';
 import { store } from './store/Store';
 import { Provider } from 'react-redux';
+import Admission from './Admission/Admission.jsx';
+import Faculty from './Faculty/Faculty.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
     <Router>
-      <Navigator />
+      <Faculty />
 
     </Router>
     </Provider>

@@ -3,6 +3,7 @@
 body {
   background-color: #f0f8ff;
   font-family: DegularRegular;
+  overflow-x: hidden;
 }
 
 
@@ -19,7 +20,7 @@ body {
 
 }
 
-.main {
+.mainCon {
   height: auto;
   
   /* transition: opacity 1s, height 5s, visibility 1s; */
